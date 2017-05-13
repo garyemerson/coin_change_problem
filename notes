@@ -1,0 +1,3 @@
+The number of ways you can make change for n using only the first m coins can be calculated using:
+* the number of ways you can make change for n using only the first m-1 coins, plus
+* the number of ways you can make change for n-C[m] using the first m coins (where C is the array of coins).
